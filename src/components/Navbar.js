@@ -2,10 +2,9 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 export const Navbar = () => (
+    <div style={{borderRadius: 15}}>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div className="navbar-brand">
-            Inter Prom Mash
-        </div>
+        <img src={require("../content/images/logo_alt2.png")} style={{width: 110}} alt="2"/>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -13,6 +12,7 @@ export const Navbar = () => (
             <ul class="navbar-nav">
                 <li className="nav-item">
                     <NavLink 
+                        style={{fontSize: 17}}
                         className="nav-link"
                         to="/"
                         exact>
@@ -21,6 +21,7 @@ export const Navbar = () => (
                 </li>
                 <li className="nav-item">
                     <NavLink 
+                        style={{fontSize: 17}}
                         className="nav-link"
                         to="/products">
                         Продукция
@@ -28,6 +29,7 @@ export const Navbar = () => (
                 </li>
                 <li className="nav-item">
                     <NavLink 
+                        style={{fontSize: 17}}
                         className="nav-link"
                         to="/contacts">
                         Контакты
@@ -35,6 +37,7 @@ export const Navbar = () => (
                 </li>
                 <li className="nav-item">
                     <NavLink 
+                        style={{fontSize: 17}}
                         className="nav-link"
                         to="/feedback">
                         Обратная связь
@@ -43,5 +46,5 @@ export const Navbar = () => (
             </ul>
             
         </div>
-    </nav>
+    </nav></div>
 )
