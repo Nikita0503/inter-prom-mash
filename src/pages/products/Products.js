@@ -1,11 +1,11 @@
 import React from 'react'
-import { About } from '../about/About'
+import DrillingRigs from './DrillingRigs';
 import './Products.css'
 
 export class Products extends React.PureComponent{
     render() {
         return (
-            <div className="mt-3">
+            <div className="mt-3" style={{marginBottom: 80}}>
                 <div class="row">
                     <div class="col-md-3">
                         <div class="nav flex-column nav-pills product" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -19,12 +19,24 @@ export class Products extends React.PureComponent{
                     </div>
                     <div class="col-md-9">
                         <div class="tab-content" id="v-pills-tabContent">
-                            <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">1<br/>1<br/>1</div>
-                            <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab"><About/></div>
-                            <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">3</div>
-                            <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">4</div>
-                            <div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">5</div>
-                            <div class="tab-pane fade" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-6-tab">6</div>
+                            <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+                                <DrillingRigs/>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+                                2
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+                                3
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+                                4
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
+                                5
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-6-tab">
+                                6
+                            </div>
                         </div>
                     </div>
                 </div>

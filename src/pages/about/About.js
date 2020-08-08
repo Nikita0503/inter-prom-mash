@@ -5,7 +5,7 @@ import './About.css'
 export class About extends React.PureComponent{
     render() {
         return (
-            <div style={{width: '100%'}}>
+            <div style={{width: '100%', marginBottom: 80}}>
                 <div class="border-left border-3">
                     <h3 className="container" style={{marginTop: 20, paddingTop: 2, paddingBottom: 5}}>О нас</h3>
                 </div>
@@ -74,7 +74,7 @@ export class About extends React.PureComponent{
                 <div class="border-left border-3">
                     <h4 className="container" style={{marginTop: 20, paddingTop: 2, paddingBottom: 5}}>Комплексный подход</h4>
                 </div>
-                <p class="container text-justify" style={{fontSize: 17, marginBottom: 80}}>
+                <p class="container text-justify" style={{fontSize: 17}}>
                     Мы предлагаем Вам, максимально удобные формы расчетов, консультации специалистов, гибкую ценовую политику, качество исполнения договоров и комплексный подход в решении Ваших производственных задач. 
                     Надеемся, что при формировании плана технического перевооружения предприятия Вы обратите внимание на возможности ООО «ИнтерПромМаш».
                 </p>
