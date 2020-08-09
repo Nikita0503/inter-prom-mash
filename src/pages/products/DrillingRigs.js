@@ -75,8 +75,7 @@ function DrillingRigs(){
                         <td>1282-1686</td>
                     </tr>
                 </tbody>
-                </table>
-
+            </table>
         </div>
     )
 }

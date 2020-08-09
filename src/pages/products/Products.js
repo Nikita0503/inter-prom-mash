@@ -1,5 +1,6 @@
 import React from 'react'
 import DrillingRigs from './DrillingRigs';
+import PneumaticMotors from './PneumaticMotors';
 import './Products.css'
 
 export class Products extends React.PureComponent{
@@ -26,7 +27,7 @@ export class Products extends React.PureComponent{
                                 2
                             </div>
                             <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
-                                3
+                                <PneumaticMotors/>
                             </div>
                             <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
                                 4
