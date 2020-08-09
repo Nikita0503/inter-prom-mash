@@ -21,7 +21,8 @@ export class Products extends React.PureComponent{
                     <div class="col-md-9">
                         <div class="tab-content" id="v-pills-tabContent">
                             <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
-                                <DrillingRigs/>
+                                {/*<DrillingRigs/>*/}
+                                <PneumaticMotors/>
                             </div>
                             <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
                                 2
