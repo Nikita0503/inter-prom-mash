@@ -4,10 +4,18 @@ import './PneumaticMotors.css'
 function PneumaticMotors(){
     return(
         <div>
-            <P_12_12/>
-            <P_16_25/>
-            <DAR_14/>
-            <DAR_5/>
+            <div class="list-group list-group-md-horizontal" id="myList" role="tablist">
+                <a class="list-group-item list-group-item-action active" data-toggle="list" href="#pneumatic_motors_1" role="tab">П 12-12</a>
+                <a class="list-group-item list-group-item-action" data-toggle="list" href="#pneumatic_motors_2" role="tab">П16-25</a>
+                <a class="list-group-item list-group-item-action" data-toggle="list" href="#pneumatic_motors_3" role="tab">ДАР-14</a>
+                <a class="list-group-item list-group-item-action" data-toggle="list" href="#pneumatic_motors_4" role="tab">ДАР-5</a>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane active" id="pneumatic_motors_1" role="tabpanel"><P_12_12/></div>
+                <div class="tab-pane" id="pneumatic_motors_2" role="tabpanel"><P_16_25/></div>
+                <div class="tab-pane" id="pneumatic_motors_3" role="tabpanel"><DAR_14/></div>
+                <div class="tab-pane" id="pneumatic_motors_4" role="tabpanel"><DAR_5/></div>
+            </div>
         </div>
     )
 }
@@ -15,7 +23,7 @@ function PneumaticMotors(){
 function P_12_12(){
     return(
         <div>
-            <div class="border-left border-3 mt-3 mt-sm-0" style={{marginBottom: 15}}>
+            <div class="border-left border-3 mt-3" style={{marginBottom: 15}}>
                 <h4 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Пневмодвигатель П 12-12 (Пневмомотор П 12-12)</h4>
             </div>
             <div className="row ml-0 mr-0">
@@ -87,7 +95,7 @@ function P_12_12(){
 function P_16_25(){
     return(
         <div>
-            <div class="border-left border-3 mt-8 mt-sm-5" style={{marginBottom: 15}}>
+            <div class="border-left border-3 mt-3" style={{marginBottom: 15}}>
                 <h4 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Поршневой пневмомотор П16-25</h4>
             </div>
             <div className="row d-flex justify-content-around container ml-0">
@@ -160,7 +168,7 @@ function P_16_25(){
 function DAR_14(){
     return(
         <div>
-            <div class="border-left border-3 mt-8 mt-sm-5" style={{marginBottom: 15}}>
+            <div class="border-left border-3 mt-3" style={{marginBottom: 15}}>
                 <h4 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Пневмомотор  ДАР-14 (ДАР-14М)</h4>
             </div>
             <div className="row d-flex justify-content-around container ml-0">
@@ -230,7 +238,7 @@ function DAR_14(){
 function DAR_5(){
     return(
         <div>
-            <div class="border-left border-3 mt-8 mt-sm-5" style={{marginBottom: 15}}>
+            <div class="border-left border-3 mt-3" style={{marginBottom: 15}}>
                 <h4 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Пневмомотор  ДАР-5 (ДАР-5Б)</h4>
             </div>
             <div className="row d-flex justify-content-around container ml-0">

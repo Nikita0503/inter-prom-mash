@@ -3,3 +3,7 @@
     color: #ffffff !important;
     font-weight: lighter;
 }
+
+.list-group-item.active {
+    background-color: #004A92 !important;
+}

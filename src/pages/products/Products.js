@@ -1,9 +1,11 @@
 import React from 'react'
 import DrillingRigs from './DrillingRigs';
 import PneumaticMotors from './PneumaticMotors';
+import Loaders from './Loaders';
+import MineElectricLocomotives from './MineElectricLocomotives';
 import './Products.css'
 
-export class Products extends React.PureComponent{
+export class Products extends React.PureComponent {
     render() {
         return (
             <div className="mt-3" style={{marginBottom: 80}}>
@@ -21,8 +23,7 @@ export class Products extends React.PureComponent{
                     <div class="col-md-9">
                         <div class="tab-content" id="v-pills-tabContent">
                             <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
-                                {/*<DrillingRigs/>*/}
-                                <PneumaticMotors/>
+                                <DrillingRigs/>
                             </div>
                             <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
                                 2
@@ -31,13 +32,13 @@ export class Products extends React.PureComponent{
                                 <PneumaticMotors/>
                             </div>
                             <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
-                                4
+                                <Loaders/>
                             </div>
                             <div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
                                 5
                             </div>
                             <div class="tab-pane fade" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-6-tab">
-                                6
+                                <MineElectricLocomotives/>
                             </div>
                         </div>
                     </div>
