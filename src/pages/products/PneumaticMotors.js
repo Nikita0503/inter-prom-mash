@@ -23,8 +23,8 @@ function PneumaticMotors(){
 function P_12_12(){
     return(
         <div>
-            <div class="border-left border-3 mt-3" style={{marginBottom: 15}}>
-                <h4 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Пневмодвигатель П 12-12 (Пневмомотор П 12-12)</h4>
+            <div class="border-left border-3 mt-3" style={{marginBottom: 15, backgroundColor: '#B3F4B850'}}>
+                <h4 className="container" style={{paddingTop: 10, paddingBottom: 10}}>Пневмодвигатель П 12-12 (Пневмомотор П 12-12)</h4>
             </div>
             <div className="row ml-0 mr-0">
                 <div class="card col-md-12">
@@ -43,8 +43,8 @@ function P_12_12(){
                     </p>
                 </div>
             </div>
-            <div class="border-left border-3 mt-2 mt-sm-2" style={{marginBottom: 15}}>
-                <h5 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Технические характеристики</h5>
+            <div class="border-left border-3 mt-2 mt-sm-2" style={{marginBottom: 15, backgroundColor: '#B3F4B850'}}>
+                <h5 className="container" style={{paddingTop: 10, paddingBottom: 10}}>Технические характеристики</h5>
             </div>
             <table class="table">
                 <thead class="thead pneumatic_motors">
@@ -95,8 +95,8 @@ function P_12_12(){
 function P_16_25(){
     return(
         <div>
-            <div class="border-left border-3 mt-3" style={{marginBottom: 15}}>
-                <h4 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Поршневой пневмомотор П16-25</h4>
+            <div class="border-left border-3 mt-3" style={{marginBottom: 15, backgroundColor: '#B3F4B850'}}>
+                <h4 className="container" style={{paddingTop: 10, paddingBottom: 10}}>Поршневой пневмомотор П16-25</h4>
             </div>
             <div className="row d-flex justify-content-around container ml-0">
                 <div class="row card col-md-4 h-50">
@@ -116,8 +116,8 @@ function P_16_25(){
                     </p>
                 </div>
             </div>
-            <div class="border-left border-3 mt-4 mt-sm-4" style={{marginBottom: 15}}>
-                <h5 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Технические характеристики</h5>
+            <div class="border-left border-3 mt-4 mt-sm-4" style={{marginBottom: 15, backgroundColor: '#B3F4B850'}}>
+                <h5 className="container" style={{paddingTop: 10, paddingBottom: 10}}>Технические характеристики</h5>
             </div>
             <table class="table">
                 <thead class="thead pneumatic_motors">
@@ -168,8 +168,8 @@ function P_16_25(){
 function DAR_14(){
     return(
         <div>
-            <div class="border-left border-3 mt-3" style={{marginBottom: 15}}>
-                <h4 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Пневмомотор  ДАР-14 (ДАР-14М)</h4>
+            <div class="border-left border-3 mt-3" style={{marginBottom: 15, backgroundColor: '#B3F4B850'}}>
+                <h4 className="container" style={{paddingTop: 10, paddingBottom: 10}}>Пневмомотор  ДАР-14 (ДАР-14М)</h4>
             </div>
             <div className="row d-flex justify-content-around container ml-0">
                 <div class="row card col-md-4 h-50">
@@ -190,8 +190,8 @@ function DAR_14(){
                     </p>
                 </div>
             </div>
-            <div class="border-left border-3 mt-3 mt-sm-3" style={{marginBottom: 15}}>
-                <h5 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Технические характеристики</h5>
+            <div class="border-left border-3 mt-3 mt-sm-3" style={{marginBottom: 15,  backgroundColor: '#B3F4B850'}}>
+                <h5 className="container" style={{paddingTop: 10, paddingBottom: 10}}>Технические характеристики</h5>
             </div>
             <table class="table">
                 <thead class="thead pneumatic_motors">
@@ -238,8 +238,8 @@ function DAR_14(){
 function DAR_5(){
     return(
         <div>
-            <div class="border-left border-3 mt-3" style={{marginBottom: 15}}>
-                <h4 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Пневмомотор  ДАР-5 (ДАР-5Б)</h4>
+            <div class="border-left border-3 mt-3" style={{marginBottom: 15,  backgroundColor: '#B3F4B850'}}>
+                <h4 className="container" style={{paddingTop: 10, paddingBottom: 10}}>Пневмомотор  ДАР-5 (ДАР-5Б)</h4>
             </div>
             <div className="row d-flex justify-content-around container ml-0">
                 <div class="row card col-md-4 h-50">
@@ -260,8 +260,8 @@ function DAR_5(){
                     </p>
                 </div>
             </div>
-            <div class="border-left border-3 mt-3 mt-sm-3" style={{marginBottom: 15}}>
-                <h5 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Технические характеристики</h5>
+            <div class="border-left border-3 mt-3 mt-sm-3" style={{marginBottom: 15,  backgroundColor: '#B3F4B850'}}>
+                <h5 className="container" style={{paddingTop: 10, paddingBottom: 10}}>Технические характеристики</h5>
             </div>
             <table class="table">
                 <thead class="thead pneumatic_motors">

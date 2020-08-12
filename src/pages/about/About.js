@@ -9,7 +9,16 @@ export class About extends React.PureComponent{
                 <div class="border-left border-3">
                     <h3 className="container" style={{marginTop: 20, paddingTop: 2, paddingBottom: 5}}>О нас</h3>
                 </div>
-                <p class="container text-justify" style={{fontSize: 17, marginTop: 10}}>Общество с ограниченной ответственностью  «ИнтерПромМаш» направленное на производство и освоение нового горно-шахтного и обогатительного оборудования, а также запасных частей для горно-шахтного, угольного и металлургического комплексов Украины и стран СНГ.
+                <div class="container">
+                    <div class="row border-left border-3" style={{backgroundColor: '#B3F4B850'}}>
+                        <img class="col-md-2 align-self-center"  src={require("../../content/images/coin_vybir_krainy.png")} alt="1"/>
+                        <p class="container col-md-10 align-self-center text-justify" style={{fontSize: 18, marginTop: 20, color: '#36773B'}}>
+                            По данным Госстата Украины были подведены итоги работы предприятий, ООО «ИнтерПромМаш» вошло в 100 лучших и находится в рейтинге надежных предприятий Украины. На основании результатов аналитики ООО «ИнтерПромМаш» получили Экспертную оценку «ВЫБОР СТРАНЫ» 2020, а также имеем право на использование маркировки «ВЫБОР СТРАНЫ» 2020. 
+                        </p>
+                    </div>
+                </div>
+                <p class="container text-justify" style={{fontSize: 17, marginTop: 10}}>
+                    Общество с ограниченной ответственностью  «ИнтерПромМаш» направленное на производство и освоение нового горно-шахтного и обогатительного оборудования, а также запасных частей для горно-шахтного, угольного и металлургического комплексов Украины и стран СНГ.
                     Сегодня предприятие ООО «ИнтерПромМаш» производит мобильно и качественно интересующее Заказчика оборудование или запасные части при наличии технической документации, по чертежам Заказчика. 
                 </p>
                 <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
@@ -43,8 +52,8 @@ export class About extends React.PureComponent{
                     </a>
                 </div>
                 <div>
-                <div class="border-left border-3" style={{backgroundColor: '#C7D8E1'}}>
-                <p class="container text-justify" style={{fontSize: 20, marginTop: 20, color: '#004A92', paddingTop: 10}}>
+                <div class="border-left border-3" style={{backgroundColor: '#B3F4B850'}}>
+                <p class="container text-justify" style={{fontSize: 20, marginTop: 20, color: '#36773B', paddingTop: 10}}>
                     Горно-шахтное оборудование производства ООО «ИнтерПромМаш» отвечает высоким технологическим стандартам, подтверждено сертификатами качества и пользуется спросом у потребителей. 
                 </p>
                 <p class="container text-justify" style={{fontSize: 17, paddingBottom: 10}}>

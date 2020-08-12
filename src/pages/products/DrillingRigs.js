@@ -4,8 +4,8 @@ import './DrillingRigs.css'
 function DrillingRigs(){
     return(
         <div>
-            <div class="border-left border-3 mt-3 mt-sm-0" style={{marginBottom: 15}}>
-                <h4 className="container" style={{paddingTop: 2, paddingBottom: 5}}>НКР100М</h4>
+            <div class="border-left border-3 mt-3 mt-sm-0" style={{marginBottom: 15, backgroundColor: '#B3F4B850'}}>
+                <h4 className="container" style={{paddingBottom: 10, paddingTop: 10, }}>НКР100М</h4>
             </div>
             <div className="row ml-0 mr-0">
                 <div class="card col-md-6 h-50">
@@ -23,8 +23,8 @@ function DrillingRigs(){
                     </p>
                 </div>
             </div>
-            <div class="border-left border-3 mt-3 mt-sm-3" style={{marginBottom: 15}}>
-                <h5 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Технические характеристики</h5>
+            <div class="border-left border-3 mt-3 mt-sm-3" style={{marginBottom: 15,  backgroundColor: '#B3F4B850'}}>
+                <h5 className="container" style={{paddingTop: 10, paddingBottom: 10 }}>Технические характеристики</h5>
             </div>
             <table class="table">
                 <thead class="thead nkr_100_ma">

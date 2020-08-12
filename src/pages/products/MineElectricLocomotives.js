@@ -19,8 +19,8 @@ function MineElectricLocomotives(){
 function K_14(){
     return(
         <div>
-            <div class="border-left border-3 mt-3" style={{marginBottom: 15}}>
-                <h4 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Электровоз контактный К-14</h4>
+            <div class="border-left border-3 mt-3" style={{marginBottom: 15, backgroundColor: '#B3F4B850'}}>
+                <h4 className="container" style={{paddingTop: 10, paddingBottom: 10}}>Электровоз контактный К-14</h4>
             </div>
             <div className="row ml-0 mr-0">
                 <div class="card col-md-12">
@@ -37,8 +37,8 @@ function K_14(){
                     </p>
                 </div>
             </div>
-            <div class="border-left border-3 mt-2 mt-sm-2" style={{marginBottom: 15}}>
-                <h5 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Технические характеристики</h5>
+            <div class="border-left border-3 mt-2 mt-sm-2" style={{marginBottom: 15, backgroundColor: '#B3F4B850'}}>
+                <h5 className="container" style={{paddingTop: 10, paddingBottom: 10}}>Технические характеристики</h5>
             </div>
             <table class="table">
                 <thead class="thead pneumatic_motors">
@@ -105,8 +105,8 @@ function K_14(){
 function K_10(){
     return(
         <div>
-            <div class="border-left border-3 mt-3" style={{marginBottom: 15}}>
-                <h4 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Электровоз контактный К-10</h4>
+            <div class="border-left border-3 mt-3" style={{marginBottom: 15, backgroundColor: '#B3F4B850'}}>
+                <h4 className="container" style={{paddingTop: 10, paddingBottom: 10}}>Электровоз контактный К-10</h4>
             </div>
             <div className="row ml-0 mr-0">
                 <div class="card col-md-12">
@@ -123,8 +123,8 @@ function K_10(){
                     </p>
                 </div>
             </div>
-            <div class="border-left border-3 mt-2 mt-sm-2" style={{marginBottom: 15}}>
-                <h5 className="container" style={{paddingTop: 2, paddingBottom: 5}}>Технические характеристики</h5>
+            <div class="border-left border-3 mt-2 mt-sm-2" style={{marginBottom: 15, backgroundColor: '#B3F4B850'}}>
+                <h5 className="container" style={{paddingTop: 10, paddingBottom: 10}}>Технические характеристики</h5>
             </div>
             <table class="table">
                 <thead class="thead pneumatic_motors">

@@ -1,3 +1,11 @@
 .product .nav-link.active, .nav-pills .show > .nav-link{
-    background-color: #004A92 !important;
+    background-color: #00B562 !important;
+}
+
+a{
+    color: #7F7F7F;
+}
+
+a:hover{
+    color: #00B562;
 }

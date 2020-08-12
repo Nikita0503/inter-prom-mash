@@ -1,9 +1,10 @@
 .pneumatic_motors {
-    background-color: #004A92 !important;
+    background-color: #00B562 !important;
     color: #ffffff !important;
     font-weight: lighter;
 }
 
 .list-group-item.active {
-    background-color: #004A92 !important;
+    background-color: #00B562 !important;
+    border-color: #00B562;
 }
