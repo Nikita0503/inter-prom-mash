@@ -3,6 +3,7 @@ import DrillingRigs from './DrillingRigs';
 import SpareParts from './SpareParts';
 import PneumaticMotors from './PneumaticMotors';
 import Loaders from './Loaders';
+import Services from './Services';
 import MineElectricLocomotives from './MineElectricLocomotives';
 import './Products.css'
 
@@ -36,7 +37,7 @@ export class Products extends React.PureComponent {
                                 <Loaders/>
                             </div>
                             <div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
-                                5
+                                <Services/>
                             </div>
                             <div class="tab-pane fade" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-6-tab">
                                 <MineElectricLocomotives/>

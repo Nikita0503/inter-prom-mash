@@ -32,13 +32,13 @@ export class About extends React.PureComponent{
                         <div class="carousel-item" data-interval="4000">
                             <img src={require("../../content/images/image2.png")} class="d-block w-100" alt="2"/>
                             <div class="carousel-caption d-none d-md-block" style={{backgroundColor: '#00000065' }}>
-                                <h3>КАЧЕСТВО ПРОВЕРЕННОЕ ПРАКТИКОЙ</h3>
+                                <h3>ПРОСТО И ПРОФЕССИОНАЛЬНО</h3>
                             </div>
                         </div>
                         <div class="carousel-item"  data-interval="4000">
                             <img src={require("../../content/images/image3.png")} class="d-block w-100" alt="3"/>
                             <div class="carousel-caption d-none d-md-block" style={{backgroundColor: '#00000065' }}>
-                                <h3>КАЧЕСТВО ПРОВЕРЕННОЕ ПРАКТИКОЙ</h3>
+                                <h3>СТАЛЬНАЯ НАДЕЖНОСТЬ</h3>
                             </div>
                         </div>
                     </div>
