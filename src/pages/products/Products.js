@@ -1,5 +1,6 @@
 import React from 'react'
 import DrillingRigs from './DrillingRigs';
+import SpareParts from './SpareParts';
 import PneumaticMotors from './PneumaticMotors';
 import Loaders from './Loaders';
 import MineElectricLocomotives from './MineElectricLocomotives';
@@ -13,7 +14,7 @@ export class Products extends React.PureComponent {
                     <div class="col-md-3">
                         <div class="nav flex-column nav-pills product" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <a class="nav-link active " id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Буровые станки</a>
-                            <a class="nav-link " id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Запасные части к горношахтному оборудованию</a>
+                            <a class="nav-link " id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Запасные части к горно-шахтному оборудованию</a>
                             <a class="nav-link " id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Пневмодвигателя</a>
                             <a class="nav-link " id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Погрузочные машины</a>
                             <a class="nav-link " id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false">Услуги</a>
@@ -26,7 +27,7 @@ export class Products extends React.PureComponent {
                                 <DrillingRigs/>
                             </div>
                             <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
-                                2
+                                <SpareParts/>
                             </div>
                             <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
                                 <PneumaticMotors/>
