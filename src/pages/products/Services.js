@@ -7,10 +7,17 @@ function Services(){
             <div class="border-left border-3 mt-3 mt-sm-0" style={{marginBottom: 15, backgroundColor: '#B3F4B850'}}>
                 <h4 className="container" style={{paddingBottom: 10, paddingTop: 10, }}>Услуги</h4>
             </div>
-            <p class="container text-justify" style={{fontSize: 16, marginTop: 10}}>
-                ООО «ИНТЕРПРОММАШ» имеет возможность выполнения всех видов ремонтов (монтаж, демонтаж, наладку, техническое обслуживание, 
-                капитальные ремонты) механической части машин, механизмов, оборудования следующего типа:
-            </p>
+            <div class="d-flex justify-content-center flex-column">
+                <p class="container text-justify" style={{fontSize: 16, marginTop: 10}}>
+                    ООО «ИНТЕРПРОММАШ» имеет возможность выполнения всех видов ремонтов (монтаж, демонтаж, наладку, техническое обслуживание, 
+                    капитальные ремонты) механической части машин, механизмов, оборудования следующего типа:
+                </p>
+                <div class="container row align-self-center justify-content-center mb-4">
+                    <div class="col-md-4 col-sm-6 mt-2"><img class="card-img-top" style={{height: '100%'}} src={require("../../content/images/products/services/services4.jpg")} alt="services4"/></div>
+                    <div class="col-md-4 col-sm-6 mt-2"><img class="card-img-top" style={{height: '100%'}} src={require("../../content/images/products/services/services2.jpg")} alt="services2"/></div>
+                    <div class="col-md-4 col-sm-6 mt-2"><img class="card-img-top" style={{height: '100%'}} src={require("../../content/images/products/services/services3.jpg")} alt="services3"/></div>
+                </div>
+            </div>
             <div class="border-left border-3 mt-3 mt-sm-0" style={{marginBottom: 15, backgroundColor: '#B3F4B850'}}>
                 <h5 className="container" style={{paddingBottom: 10, paddingTop: 10, }}>Горно-шахтное оборудование:</h5>
             </div>
@@ -51,9 +58,14 @@ function Services(){
                 <h4 className="container" style={{paddingBottom: 10, paddingTop: 10, }}>Термический участок</h4>
             </div>
             <ul>
-                <li>Термическая обработка (нормализация, улучшения, закалка, цементация) в электропечах</li>
-                <li>ТВЧ</li>
+                <div>
+                    <li>Термическая обработка (нормализация, улучшения, закалка, цементация) в электропечах</li>
+                    <li>ТВЧ</li>
+                </div>
             </ul>
+            <div class="container d-flex col-md-12 pl-4 pr-4 mb-3">
+                <img class="card-img-top" src={require("../../content/images/products/services/services5.jpg")} alt="services5"/>
+            </div>
             <div class="border-left border-3 mt-3 mt-sm-0" style={{marginBottom: 15, backgroundColor: '#B3F4B850'}}>
                 <h4 className="container" style={{paddingBottom: 10, paddingTop: 10, }}>Наплавочно-восстановительный участок</h4>
             </div>
@@ -92,6 +104,10 @@ function Services(){
                 <li>Аппаратами электродуговой, автоматической и полуавтоматической сварки, газо-резательными аппаратами и машинами</li>
                 <li>Токарно-карусельными, токарно-винторезными станками (ДИП200, ДИП300, ДИП400), фрезерными станками, вертикально и радикально сверлильными станками, шлифовальными станками, зуборезными станками, строгальными станками</li>
             </ul>
+            <div class="d-flex container justify-content-center  mb-4">
+                <div class="col-md-6 col-sm-6 mt-2"><img class="card-img-top" style={{height: '100%'}} src={require("../../content/images/products/services/services6.png")} alt="services4"/></div>
+                <div class="col-md-6 col-sm-6 mt-2"><img class="card-img-top" style={{height: '100%'}} src={require("../../content/images/products/services/services7.png")} alt="services2"/></div>
+            </div>
             <div class="border-left border-3 mt-3 mt-sm-0" style={{marginBottom: 15, backgroundColor: '#B3F4B850'}}>
                 <h6 className="container" style={{paddingBottom: 10, paddingTop: 10, }}>
                     Персонал, прошедший квалифицированное обучение, 
