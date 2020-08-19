@@ -11,7 +11,7 @@ export const Navbar = () => (
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav" style={{justifyContent: "flex-end"}}>
                     <div class="d-flex flex-column">
-                        <text style={{textAlign: 'end', marginRight: 5}}>+380974698452</text>
+                        <text style={{textAlign: 'end', marginRight: 5}}>+380675692452</text>
                         <text style={{textAlign: 'end', marginRight: 5}}>+380668208665</text>
                         <ul class="navbar-nav">
                             <li className="nav-item">
