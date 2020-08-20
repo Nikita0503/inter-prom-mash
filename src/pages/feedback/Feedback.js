@@ -1,7 +1,9 @@
 import React from 'react'
 import './Feedback.css'
+import emailjs from 'emailjs-com';
 
 export class Feedback extends React.PureComponent {
+
     render() {
         return (
             <div className="container" style={{marginBottom: 80}}>
@@ -13,18 +15,18 @@ export class Feedback extends React.PureComponent {
                     <h4 className="container" style={{paddingBottom: 10, paddingTop: 10}}>Возникли вопросы? Напишите и мы обязательно Вам ответим!</h4>
                 </div>
 
-                <form class="container">
+                <form onSubmit={sendEmail} class="container">
                     <div class="form-group">
                         <label for="formGroupExampleInput">Ваше имя:</label>
-                        <input type="text" class="form-control" id="formGroupInputName"/>
+                        <input type="text" class="form-control" id="formGroupInputName" name="name"/>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Email:</label>
-                        <input type="email" class="form-control" id="formGroupInputEmail"/>
+                        <input type="email" class="form-control" id="formGroupInputEmail" name="email"/>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Ваш вопрос:</label>
-                        <textarea class="form-control" id="formGroupInputRequest" rows="10"></textarea>
+                        <textarea class="form-control" id="formGroupInputRequest" rows="10" name="message"></textarea>
                     </div>
                     <div class="d-flex justify-content-end">
                         <button type="submit" class="btn send">Отправить</button>
@@ -33,4 +35,16 @@ export class Feedback extends React.PureComponent {
             </div>
         );
     }
+}
+
+
+function sendEmail(e) {
+    e.preventDefault();
+    emailjs.sendForm('gmail', 'interprommash', e.target, 'user_X0bDBf9PmZLvJbk8PNl1j')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    e.target.reset();
 }
