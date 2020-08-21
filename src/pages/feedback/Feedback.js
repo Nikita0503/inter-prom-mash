@@ -6,7 +6,7 @@ export class Feedback extends React.PureComponent {
 
     render() {
         return (
-            <div className="container" style={{marginBottom: 80}}>
+            <div className="mt-3" style={{marginBottom: 80}}>
                 <div class="border-left border-3 mt-3 mt-sm-0" style={{marginBottom: 15, backgroundColor: '#B3F4B850'}}>
                     <h3 className="container" style={{paddingBottom: 10, paddingTop: 10}}>Обратная связь</h3>
                 </div>
@@ -40,6 +40,10 @@ export class Feedback extends React.PureComponent {
 
 function sendEmail(e) {
     e.preventDefault();
+    if(e.target.name.value === '' || e.target.email.value === '' || e.target.message.value === ''){
+        alert("Необходимо заполнить все поля")
+        return
+    }
     emailjs.sendForm('gmail', 'interprommash', e.target, 'user_X0bDBf9PmZLvJbk8PNl1j')
       .then((result) => {
           console.log(result.text);

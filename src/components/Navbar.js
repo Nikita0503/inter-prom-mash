@@ -5,14 +5,14 @@ export const Navbar = () => (
     <div>
         <div>
             <nav id="sraka" class="navbar navbar-expand-lg navbar-light">
-                <img src={require("../content/images/logo_alt2.png")} style={{width: 100}} alt="2"/>
+                <img src={require("../content/images/logo_alt1.png")} style={{width: 100}} alt="2"/>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav" style={{justifyContent: "flex-end"}}>
                     <div class="d-flex flex-column">
-                        <text style={{textAlign: 'end', marginRight: 5}}>+380675692452</text>
-                        <text style={{textAlign: 'end', marginRight: 5}}>+380668208665</text>
+                        <text style={{textAlign: 'end', marginRight: 5, color: 'gray'}}>+380675692452</text>
+                        <text style={{textAlign: 'end', marginRight: 5, color: 'gray'}}>+380668208665</text>
                         <ul class="navbar-nav">
                             <li className="nav-item">
                                 <NavLink 
