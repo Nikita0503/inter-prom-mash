@@ -7,7 +7,7 @@ export class About extends React.PureComponent{
         return (
             <div style={{width: '100%', marginBottom: 80}}>
                 <div class="border-left border-3">
-                    <h3 className="container" style={{marginTop: 20, paddingTop: 2, paddingBottom: 5}}>О нас</h3>
+                    <h3 className="container" style={{marginTop: 0, paddingTop: 2, paddingBottom: 5}}>О нас</h3>
                 </div>
                 <div class="container">
                     <div class="row border-left border-3" style={{backgroundColor: '#B3F4B850'}}>

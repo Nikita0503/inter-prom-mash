@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom'
 export const Navbar = () => (
     <div>
         <div>
-            <nav id="sraka" class="navbar navbar-expand-lg navbar-light">
-                <img src={require("../content/images/logo_alt1.png")} style={{width: 100}} alt="2"/>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <img src={require("../content/images/logo_alt1.png")} style={{width: 160}} alt="2"/>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

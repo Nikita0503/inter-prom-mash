@@ -6,7 +6,7 @@ export class Feedback extends React.PureComponent {
 
     render() {
         return (
-            <div className="mt-3" style={{marginBottom: 80}}>
+            <div className="mt-0" style={{marginBottom: 80}}>
                 <div class="border-left border-3 mt-3 mt-sm-0" style={{marginBottom: 15, backgroundColor: '#B3F4B850'}}>
                     <h3 className="container" style={{paddingBottom: 10, paddingTop: 10}}>Обратная связь</h3>
                 </div>
